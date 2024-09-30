@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="/signup" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" name="birthdate" required>
+        <br>
+        <label for="number">Phone Number:</label>
+        <input type="tel" name="number" required>
+        <br>
+        <button type="submit">Sign Up</button>
+        <a href="/login">login</a>
+    </form>
+</body>
+</html>
